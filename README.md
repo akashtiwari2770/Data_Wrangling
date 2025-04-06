@@ -1,40 +1,29 @@
-# Data_Wrangling
-Data Wrangling with Python
-This repository is a collection of hands-on data wrangling projects using Python. The goal is to demonstrate how to collect, clean, and prepare raw data from various sources into structured, usable formats ready for analysis or machine learning tasks.
+🧹 Data Wrangling with Python
+This repository is a collection of projects focused on data wrangling using Python. It showcases how raw, messy, or unstructured data can be transformed into clean, structured, and analysis-ready formats. The projects here involve working with real-world data sources, applying techniques to collect, clean, reshape, and enrich data.
 
-🔍 What You'll Find Here:
-API Data Extraction
-Projects showcasing how to access and work with public APIs using libraries like requests, json, and pandas.
+🔧 What You’ll Find
+API Integration: Fetching and processing data from REST APIs using libraries like requests, json, and pandas.
 
-Web Scraping
-Real-world examples of scraping structured and unstructured data from websites using tools like BeautifulSoup, Selenium, and lxml.
+Web Scraping: Extracting data from websites using BeautifulSoup, Selenium, and lxml.
 
-Data Cleaning & Preprocessing
-Handling missing values, inconsistent formats, duplicates, and incorrect data types using pandas and numpy.
+Data Cleaning: Handling missing values, fixing data types, removing duplicates, and correcting inconsistencies.
 
-File Handling
-Working with multiple data formats including CSV, Excel, JSON, and TXT files. You'll also find examples of combining and transforming data from different sources.
+Data Transformation: Reshaping data frames, merging datasets, filtering, grouping, and aggregating information.
 
-Automation & Scheduling
-Sample scripts to automate data collection tasks, schedule regular scrapes, and store updated datasets efficiently.
+File Handling: Reading/writing data from formats like CSV, JSON, Excel, and more.
 
-⚙️ Tools & Libraries:
-Python
+Automation: Scripts to automate repetitive wrangling tasks for efficient data pipelines.
 
-Pandas
+🧠 Purpose
+The main goal of this repo is to demonstrate how to prepare data for further analysis or modeling. Whether the data is messy, incomplete, or scattered across multiple sources, these projects show how to wrangle it effectively using Python.
 
-NumPy
+🛠️ Tools & Libraries
+pandas, numpy
 
-Requests
+requests, json
 
-BeautifulSoup
+BeautifulSoup, Selenium
 
-Selenium
+re for regex-based cleaning
 
-OpenPyXL / xlrd
-
-JSON / CSV modules
-
-Each project is structured with clear code, comments, and instructions to make it beginner-friendly and easy to follow. Whether you're learning data wrangling or looking for practical examples to boost your data skills, this repo is for you.
-
-Feel free to explore, fork, and contribute!
+os, glob for file system operations
